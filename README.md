@@ -1,6 +1,6 @@
 # 介绍
 
-**重要提示：**  此文档不再更新。有关Apple SDK的最新信息，请访问[文档网站](https://developer.apple.com/documentation)。
+**重要提示：**此文档不再更新。有关Apple SDK的最新信息，请访问[文档网站](https://developer.apple.com/documentation)。
 
 Objective-C语言从编译时间和链接时间到运行时推迟了尽可能多的决策。只要有可能，它就会动态地完成任务。这意味着该语言不仅需要编译器，还需要运行时系统来执行编译代码。运行时系统扮演着 Objective-C 语言的一种操作系统， 运行时是让改语言运作的原因。
 
