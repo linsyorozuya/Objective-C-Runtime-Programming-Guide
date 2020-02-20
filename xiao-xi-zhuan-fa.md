@@ -57,7 +57,7 @@
 
 转发模仿继承，并可用于向Objective-C程序提供多重继承的一些效果。[如图5-1](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtForwarding.html#//apple_ref/doc/uid/TP40008048-CH105-87317)所示，通过转发消息来响应消息的对象似乎借用或“继承”另一个类中定义的方法实现。**图5-1**   转发
 
-![](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Art/forwarding.gif)
+![](media/forwarding.gif)
 
 在此图示中，Warrior类`negotiate`的实例将消息转发给Diplomat类的实例。战士似乎会像外交官一样进行谈判。它似乎会对这个`negotiate`信息做出回应，并且出于所有实际目的，它确实会做出回应（尽管它确实是一个正在做这项工作的外交官）。
 

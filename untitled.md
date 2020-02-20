@@ -41,7 +41,7 @@ objc_msgSend(receiver, selector, arg1, arg2, ...)
 
 类和对象结构的这些元素如图3-1所示。**图3-1**   消息传递框架
 
-![](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Art/messaging1.gif)
+![](media/messaging1.gif)
 
 当消息发送到对象时，消息传递功能通过对象的`isa` 指针指向类结构，然后在调度表中查找方法选择器。如果它找不到那里的选择器，则`objc_msgSend`跟随指向超类的指针并尝试在其调度表中找到选择器。连续的失败导致`objc_msgSend`爬升类层次结构直到它到达`NSObject`类。一旦找到选择器，该函数就会调用表中输入的方法并将接收对象的数据结构传递给它。
 
